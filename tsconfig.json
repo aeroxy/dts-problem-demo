@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "declaration": true,
+  },
+  "include": ["src/**/*"]
+}
